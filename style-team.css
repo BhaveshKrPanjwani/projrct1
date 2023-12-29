@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: roborto;
+    box-sizing: border-box;
+    /* color: white; */
+}
+a{
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+}
+body{
+    color: white;
+    background-color: black;
+}
+.heading{
+    color: white;
+    display: flex;
+    /* top: 50px; */
+    /* align-items: center; */
+    justify-content: space-around;
+    background-color: black;
+    padding: 15px;
+    
+    font-size: 34px;
+   
+font-family: 'Roboto', sans-serif;
+    
+}
+.links{
+    position: relative;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-around;
+    width: 655px;
+height: 34px;
+top: 70px;
+
+
+}
+
+.logo-img{
+    position: relative;
+    /* width: 675px; */
+height: 143.02px;
+top: 26px;
+left: 19px;
+border-radius: 11px;
+}
+.matrix p{
+    position: relative;
+    top: 26px;
+    font-size: 50px;
+    font-weight: 100;
+
+}
+
+.body-team{
+    border: 2px solid transparent;
+    --color1:rgb(25, 10, 30);
+    --color2:black;
+    --color3:rgb(40, 14, 14);
+    background-image: linear-gradient(var(--color1),var(--color2),var(--color3),var(--color2),var(--color1));
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 12px;
+Left:
+-21px;
+}
+.heading-team{
+    margin-top: 50px;
+    /* height: 200px; */
+    font-size: 90px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: 50px; */
+}
+.faculty-co{
+    line-height: 160px;
+    
+    font-size: 55px;
+    text-align: center;
+}
+.team-part-heading{
+    text-decoration: underline;
+    font-size: 55px;
+}
+.faculty-row1 img{
+height: 350px;
+width: 350px;
+border: 2px solid palegoldenrod;
+border-radius: 50%;
+background-color: white;
+}
+.board,.founding-team{
+    /* line-height: 120px; */
+    margin-top:50px;
+    margin-bottom: 70px;
+    font-size: 35px;
+    font-weight: 700;
+    
+    /* align-items: center;
+    justify-content: center; */
+    text-align: center;
+   
+    padding: 0px;
+}
+.board-row1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top:50px;
+}
+.team-img{
+    height: 350px;
+    width: 350px;
+    border: 2px solid palegoldenrod;
+    border-radius: 50%;
+    background-color: white;
+}
+.text-team{
+    
+    display: flex;
+    justify-content: space-around;
+   line-height: 50px;
+   font-size: 40px;
+   padding: 50px;
+}
+.team-img{
+    /* gap: 40px; */
+    margin: 20px;
+}
+
+.board-row2{
+    display: flex;
+    justify-content: space-evenly;
+}
+/* FOOTER */
+
+.footer{
+    padding: 75px;
+    background-color: black;
+    color: white;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+   }
+   .f-logo img{
+    height: 100px;
+   }
+   .text p{
+    font-weight: 600;
+    font-size: 22px;
+   }
+   .address{
+    font-size: 25px;
+    line-height:25px;
+    margin-bottom: 45px;
+    margin-top: 60px;
+   }
+   .last-line{
+    font-size: 20px;
+    font-weight: 550;
+   }
+   .f-right{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+   }
+.r-text{
+    font-size: 26px;
+    font-weight: bolder;
+}
+.icons{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 35px;
+}
+.email{
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 15px;
+    padding-left: 25px;
+}
+.message{
+    height: 100px;
+    padding: 10px;
+    font-weight: 600;
+    padding-left: 25px;
+    font-size: 22px;
+    border-radius: 15px;
+}
+.connect{
+background-color: rgb(82, 11, 138);
+border: none;
+font-weight: 600;
+width: 120px;
+font-size: 20px;
+border-radius: 17px;
+/* text-align: center; */
+padding: 5px;
+color: white;
+}
